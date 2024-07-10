@@ -17,7 +17,6 @@ public class Alert {
 		driver.findElement(By.className("btn-style")).click();
 		driver.switchTo().alert().getText();
 		driver.switchTo().alert().accept();
-		driver.close();
 	}
 
 }
